@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gafenitall_tausahane_1727143779263-pr-trigger-input-set
+  identifier: Build_gafenitall_tausahane_1727143779263prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gafenitall_tausahane_1727143779263
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
