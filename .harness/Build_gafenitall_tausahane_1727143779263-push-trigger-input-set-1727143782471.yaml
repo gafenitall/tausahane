@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gafenitall_tausahane_1727143779263-push-trigger-input-set
+  identifier: Build_gafenitall_tausahane_1727143779263pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gafenitall_tausahane_1727143779263
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
